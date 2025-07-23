@@ -33,13 +33,13 @@ const Cars = () => {
     {
       id: 3,
       name: "Citroën C3 Van",
-      price: "€4.500",
+      price: "€4.000",
       image: "/images/c3van.jpeg",
       specs: [
         "Motore 1.6 75cv",
         "Anno: 2017 – 192.000 km",
         "Diesel, Cambio Manuale",
-        "Ideale per proffesionisti"
+        "Ideale per professionisti"
       ],
       color: "bg-yellow-500"
     }

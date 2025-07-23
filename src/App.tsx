@@ -1,4 +1,5 @@
 import React from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Hero from './components/Hero';
 import About from './components/About';
 import Protocol from './components/Protocol';
@@ -17,6 +18,7 @@ function App() {
       <Reviews />
       <Contact />
       <Footer />
+      <SpeedInsights />
     </div>
   );
 }
