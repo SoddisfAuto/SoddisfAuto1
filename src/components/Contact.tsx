@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Mail, MessageCircle, ArrowRight } from 'lucide-react';
+import { MapPin, Phone, Mail, MessageCircle, ArrowRight, Clock } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -51,14 +51,17 @@ const Contact = () => {
 
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 w-12 h-12 bg-gray-900 text-white rounded-lg flex items-center justify-center">
-                  <Mail size={24} />
+                  <Clock size={24} />
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Orari</h3>
-                  <p className="text-gray-600">
-                    Aperto dal lunedì al sabato<br />
-                    Su appuntamento domenicale
-                  </p>
+                  <div className="text-gray-600 space-y-1">
+                    <p className="font-medium">Lunedì - Sabato</p>
+                    <p>9:00 - 13:00 | 16:00 - 19:00</p>
+                    <p className="text-sm text-gray-500 mt-2">
+                      Mercoledì e Sabato sera chiuso
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
